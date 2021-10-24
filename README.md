@@ -3,7 +3,7 @@
 # Beer-Data-Analysis
 
  ## Business Problem  
- Our Company is trying to gain insight on how the property of beer can actually affect demand for it from the Consumers. Survey questionaires were given to beer drinkers and they were encouraged to rate various beer types on a scale of 0-5, and also write a review text on what they felt about the beers that they rated. The feedback was collated and 
+ Our Company is trying to gain insight on how the property of beer can actually affect demand for it from the Consumers. Survey questionaires were given to beer drinkers and they were encouraged to rate various beer types on a scale of 0-5, and also write product reviews about the beers that they rated. The feedback was collated and given to my team for analysis.
  ## The dataset
 
 The dataset contains the beer properties as well as the reviews collected from the l. 
