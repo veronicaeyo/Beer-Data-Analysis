@@ -1,13 +1,13 @@
 ![beer](https://images.unsplash.com/photo-1586993451228-09818021e309?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80)
 
-# Survival-of-a-Patient
+# Beer-Data-Analysis
 
  ## Business Problem  
- A hospital has been trying to improve its care conditions by analyzing the historic survival of its patients. They tried looking at their data but could not identify the main factors leading to high survivals.
+ Our Company is trying to get insights about how the property of beer can actually affect demand for it from the Consumers. Survey questionaires were given to beer drinkers. on
  
  ## The dataset
 
-The dataset contains the patient records collected from a hospital. 
+The dataset contains the beer properties as well as the reviews collected from the l. 
 
 The "Survived_1_year" column is a target variable which has binary entries (0 or 1).
 
