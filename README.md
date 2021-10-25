@@ -48,7 +48,10 @@ To analyze the dataset and answer the following question:
 ## Requirements 
 Libraries used - To succesfully run this Jupyter notebook the following libraries need to be installed.
 
-    - Python 3     - Pandas     - Scikit-Learn     - Seaborn     - Matplotlib     - Numpy  
+    - Python 3     - Pandas     - Scikit-Learn     - Seaborn     - Matplotlib     - Numpy 
+    
+ ## The approach 
+The analysis was done    
     
 ## Data Preprocessing
 Preprocessing work done on the data included:
