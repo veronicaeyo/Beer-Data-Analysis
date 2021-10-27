@@ -7,31 +7,30 @@
  ## The dataset
 
 The dataset contains the beer properties as well as the product reviews collected from the end consumer. beer_ABV
-The features in the dataset are described below.
+The features in the dataset are listed below.
 
-•	beer_beerId == 0, implies that the patient did not survive after 1 year of treatment
+•	beer_beerId 
+•	beer_brewerId 
 
-•	beer_brewerId, implies that the patient survived after 1 year of treatment
+•	beer_name
 
-•	beer_name: Care situation of a patient during treatment
+•	beer_style
 
-•	beer_style: The diagnosed condition of the patient
+•	review_appearance
 
-•	review_appearance: Patient identifier number
+•	review_palette
 
-•	review_palette: Class of drugs used during treatment
+•	review_overall
 
-•	review_overall: If the patient survived after one year (0 means did not survive; 1 means survived)
+•	review_taste
 
-•	review_taste: Age of the patient
+•	review_profileName
 
-•	review_profileName: A calculated value based on the patient’s weight, height, etc.
+•	review_aroma
 
-•	review_aroma: If the patient was a smoker or not
+•	review_text
 
-•	review_text: If the patient stayed in Rural or Urban part of the country
-
-• review_time: Condition of the patient before the start of the treatment ( This variable is splitted into 8 columns - A, B, C, D, E, F, Z and Number_of_prev_cond. A, B, C, D, E, F and Z are the previous conditions of the patient.
+• review_time
 
  
  ## Objective
@@ -51,44 +50,13 @@ Libraries used - To succesfully run this Jupyter notebook the following librarie
     - Python 3     - Pandas     - Scikit-Learn     - Seaborn     - Matplotlib     - Numpy 
     
  ## The approach 
-The analysis was done    
+The analysis was done on the dataset given.   
     
 ## Data Preprocessing
 Preprocessing work done on the data included:
 
-1. Outlier removal
-
-2. Label and one hot encoding for categorical data
-
-3. Handling of missing data by median imputation
-
-4. Replacing missing values  with a hard coded values like zero (eg 1 for yes, 0 for none)
+1. Replacing missing values  with the mode imputation
 
 
 
-## Models 
-1.Gradient Boosting Classifier
-
-2.Ada Boost Classifier
-
-3.Random Forest Classifier
-
-4.Naive Bayes
-
-5.K Nearest Neighbors
-
-6.Decision Tree Classifier
-
-7.Logistic Regression
-
-## Results
-Performance Evaluation Metric used:
-
-1.F1 score
-
-2.AUC score
-
-3.Training and test accuracy
-
-4.Confusion matrix
 
